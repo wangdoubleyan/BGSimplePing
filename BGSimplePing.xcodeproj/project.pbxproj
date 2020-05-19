@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1B25491D2473CBAC00713136 /* BGSimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B25491B2473CBAC00713136 /* BGSimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B2549252473CBB600713136 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2549232473CBB600713136 /* SimplePing.h */; };
+		1B2549262473CBB600713136 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2549242473CBB600713136 /* SimplePing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B2549182473CBAC00713136 /* BGSimplePing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BGSimplePing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B25491B2473CBAC00713136 /* BGSimplePing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGSimplePing.h; sourceTree = "<group>"; };
 		1B25491C2473CBAC00713136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2549232473CBB600713136 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		1B2549242473CBB600713136 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				1B25491B2473CBAC00713136 /* BGSimplePing.h */,
+				1B2549232473CBB600713136 /* SimplePing.h */,
+				1B2549242473CBB600713136 /* SimplePing.m */,
 				1B25491C2473CBAC00713136 /* Info.plist */,
 			);
 			path = BGSimplePing;
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2549252473CBB600713136 /* SimplePing.h in Headers */,
 				1B25491D2473CBAC00713136 /* BGSimplePing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2549262473CBB600713136 /* SimplePing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

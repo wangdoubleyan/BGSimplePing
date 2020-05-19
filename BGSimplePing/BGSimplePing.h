@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SimplePing.h"
 
 //! Project version number for BGSimplePing.
 FOUNDATION_EXPORT double BGSimplePingVersionNumber;
