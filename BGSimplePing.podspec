@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.author = { "Yanyan" => "sgabgfor@gmail.com" }
   s.source = { :git => "https://github.com/wangdoubleyan/BGSimplePing.git", :tag => "v#{s.version}", :submodules => true }
   s.platform = :ios, "10.0"
-  s.ios.source_files = "BGSimplePing/*.{h,swift}"
+  s.ios.source_files = "BGSimplePing/*.{h,swift,m}"
   s.ios.deployment_target = "10.0"
 end
